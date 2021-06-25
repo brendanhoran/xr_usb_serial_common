@@ -1,0 +1,13 @@
+Module.symvers.cmd
+modules.order.cmd
+xr_usb_serial_common.ko.cmd
+xr_usb_serial_common.mod.cmd
+xr_usb_serial_common.mod.o.cmd
+xr_usb_serial_common.o.cmd
+modules.order
+xr_usb_serial_common.ko
+xr_usb_serial_common.mod
+xr_usb_serial_common.mod.c
+xr_usb_serial_common.mod.o
+xr_usb_serial_common.o
+

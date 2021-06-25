@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ACTION=="add", ENV{ID_VENDOR_ID}=="0424", ENV{ID_MODEL_ID}=="2514", RUN+="/usr/local/bin/ollie-plug.sh"
