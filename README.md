@@ -7,6 +7,7 @@ https://www.maxlinear.com/support/design-tools/software-drivers
 Version 1C-BH  2021/6/12
         Fix errors in code.
 	Update to support kernel 5.x
+	Add udev rules to load correct module/unload cdc_acm
 
 Version 1C  2017/1/11
         Add the 9-bit mode support.
