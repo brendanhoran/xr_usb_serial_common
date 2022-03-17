@@ -1,1 +1,9 @@
-SUBSYSTEM=="usb", ACTION=="add", ENV{ID_VENDOR_ID}=="0424", ENV{ID_MODEL_ID}=="2514", RUN+="/usr/local/bin/ollie-plug.sh"
+# Match Exar 4-channel UART IC
+# https://www.maxlinear.com/product/interface/uarts/usb-uarts/xr21v1414
+#
+# See the following datasheet sections:
+#   1.1.1 USB Vendor ID
+#     "Exar’s USB Vendor ID is 0x04E2."
+#   1.1.2 USB Product ID
+#     "The default USB Product ID for the V1414 is 0x1414."
+SUBSYSTEM=="usb", ACTION=="add", ENV{ID_VENDOR_ID}=="04e2", ENV{ID_MODEL_ID}=="1414", RUN+="/usr/local/bin/ollie-plug.sh"
